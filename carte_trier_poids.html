@@ -1,0 +1,1906 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f64f0aed392426497a2bc6ce41b7a6c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0f64f0aed392426497a2bc6ce41b7a6c" ></div>
+        
+</body>
+<script>    
+    
+            var map_0f64f0aed392426497a2bc6ce41b7a6c = L.map(
+                "map_0f64f0aed392426497a2bc6ce41b7a6c",
+                {
+                    center: [48.9066, 2.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_093ea49a442a4898af7e231fb26af7fd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+            var marker_167130432d394eaea53c4c61f5f2d6ce = L.marker(
+                [13.66033, 28.96],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6abc8e1d85744e8fa66b0c6e05561bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb8603ac1a8e47ab86352336c452fdf9 = $(`<div id="html_fb8603ac1a8e47ab86352336c452fdf9" style="width: 100.0%; height: 100.0%;">Météorite : Al Zarnkh</div>`)[0];
+            popup_6abc8e1d85744e8fa66b0c6e05561bf6.setContent(html_fb8603ac1a8e47ab86352336c452fdf9);
+        
+
+        marker_167130432d394eaea53c4c61f5f2d6ce.bindPopup(popup_6abc8e1d85744e8fa66b0c6e05561bf6)
+        ;
+
+        
+    
+    
+            var marker_bcc46d37d0604ff891dd28661576e67e = L.marker(
+                [45.82133, 6.01533],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6b0c36d9cc084eb888929bfd44847fc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc2a330c9d7c4312834dcf50457a180f = $(`<div id="html_fc2a330c9d7c4312834dcf50457a180f" style="width: 100.0%; height: 100.0%;">Météorite : Alby sur Chéran</div>`)[0];
+            popup_6b0c36d9cc084eb888929bfd44847fc9.setContent(html_fc2a330c9d7c4312834dcf50457a180f);
+        
+
+        marker_bcc46d37d0604ff891dd28661576e67e.bindPopup(popup_6b0c36d9cc084eb888929bfd44847fc9)
+        ;
+
+        
+    
+    
+            var marker_382836decba5494e9abb421e939cf3db = L.marker(
+                [15.78333, -5.9],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_7a56fc3bf4234bc68e044bb215800db9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfeb27c9489541d68329f67dc4767fcf = $(`<div id="html_cfeb27c9489541d68329f67dc4767fcf" style="width: 100.0%; height: 100.0%;">Météorite : Bassikounou</div>`)[0];
+            popup_7a56fc3bf4234bc68e044bb215800db9.setContent(html_cfeb27c9489541d68329f67dc4767fcf);
+        
+
+        marker_382836decba5494e9abb421e939cf3db.bindPopup(popup_7a56fc3bf4234bc68e044bb215800db9)
+        ;
+
+        
+    
+    
+            var marker_b55f762858c34a77829ef44544318827 = L.marker(
+                [40.66813, -117.18913],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_1169f7352a024c0bb244677146fd0b9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f8d03293a384d3a8f45a1704637b844 = $(`<div id="html_6f8d03293a384d3a8f45a1704637b844" style="width: 100.0%; height: 100.0%;">Météorite : Battle Mountain</div>`)[0];
+            popup_1169f7352a024c0bb244677146fd0b9f.setContent(html_6f8d03293a384d3a8f45a1704637b844);
+        
+
+        marker_b55f762858c34a77829ef44544318827.bindPopup(popup_1169f7352a024c0bb244677146fd0b9f)
+        ;
+
+        
+    
+    
+            var marker_25541cab14ce4fd0a3ad2fd7447393c9 = L.marker(
+                [32.25, -8.15],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_ee06f19e4f7b4e4bb649949621b166ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a85f3a31dddc4a4e9f4c15272b51a190 = $(`<div id="html_a85f3a31dddc4a4e9f4c15272b51a190" style="width: 100.0%; height: 100.0%;">Météorite : Benguerir</div>`)[0];
+            popup_ee06f19e4f7b4e4bb649949621b166ab.setContent(html_a85f3a31dddc4a4e9f4c15272b51a190);
+        
+
+        marker_25541cab14ce4fd0a3ad2fd7447393c9.bindPopup(popup_ee06f19e4f7b4e4bb649949621b166ab)
+        ;
+
+        
+    
+    
+            var marker_f5c1af14cb8f4a95b6eba98de053544a = L.marker(
+                [32.86667, 10.8],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f3fdb9ff24084c9d85c86784260046a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a7ccd2afbe443d0ae4cc91ecc49b3c2 = $(`<div id="html_3a7ccd2afbe443d0ae4cc91ecc49b3c2" style="width: 100.0%; height: 100.0%;">Météorite : Beni M'hira</div>`)[0];
+            popup_f3fdb9ff24084c9d85c86784260046a9.setContent(html_3a7ccd2afbe443d0ae4cc91ecc49b3c2);
+        
+
+        marker_f5c1af14cb8f4a95b6eba98de053544a.bindPopup(popup_f3fdb9ff24084c9d85c86784260046a9)
+        ;
+
+        
+    
+    
+            var marker_c16bec344ab74701ae5c098fab223a07 = L.marker(
+                [30.0, -7.0],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_9b831a8c0edc4f90859ab0f7cc01cdd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e085eb3dfc824e89b177c744da8f1582 = $(`<div id="html_e085eb3dfc824e89b177c744da8f1582" style="width: 100.0%; height: 100.0%;">Météorite : Bensour</div>`)[0];
+            popup_9b831a8c0edc4f90859ab0f7cc01cdd4.setContent(html_e085eb3dfc824e89b177c744da8f1582);
+        
+
+        marker_c16bec344ab74701ae5c098fab223a07.bindPopup(popup_9b831a8c0edc4f90859ab0f7cc01cdd4)
+        ;
+
+        
+    
+    
+            var marker_20f75b2193b54b26976bc88e0a0a4a96 = L.marker(
+                [-31.91, -58.32833],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_398fe4ae3f9d47ad9084f8e815f8e323 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8bbf7a693fb4e07ba7309e4b54de21b = $(`<div id="html_c8bbf7a693fb4e07ba7309e4b54de21b" style="width: 100.0%; height: 100.0%;">Météorite : Berduc</div>`)[0];
+            popup_398fe4ae3f9d47ad9084f8e815f8e323.setContent(html_c8bbf7a693fb4e07ba7309e4b54de21b);
+        
+
+        marker_20f75b2193b54b26976bc88e0a0a4a96.bindPopup(popup_398fe4ae3f9d47ad9084f8e815f8e323)
+        ;
+
+        
+    
+    
+            var marker_6199524175344ddbaa7e5e485d6c0b8e = L.marker(
+                [40.30583, -105.02325],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_b64bebd6a6ad4fba9a0b91c60b3ab90c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24e5e7101fd14c9b9325c84216af26a8 = $(`<div id="html_24e5e7101fd14c9b9325c84216af26a8" style="width: 100.0%; height: 100.0%;">Météorite : Berthoud</div>`)[0];
+            popup_b64bebd6a6ad4fba9a0b91c60b3ab90c.setContent(html_24e5e7101fd14c9b9325c84216af26a8);
+        
+
+        marker_6199524175344ddbaa7e5e485d6c0b8e.bindPopup(popup_b64bebd6a6ad4fba9a0b91c60b3ab90c)
+        ;
+
+        
+    
+    
+            var marker_29ac7f583820483c8bd6c65583697ebb = L.marker(
+                [26.50833, 73.11528],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_750a7d3f4bf741288eb68ef413abb1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b5a67ae11344c478ecd3f849530ca61 = $(`<div id="html_1b5a67ae11344c478ecd3f849530ca61" style="width: 100.0%; height: 100.0%;">Météorite : Bhawad</div>`)[0];
+            popup_750a7d3f4bf741288eb68ef413abb1b1.setContent(html_1b5a67ae11344c478ecd3f849530ca61);
+        
+
+        marker_29ac7f583820483c8bd6c65583697ebb.bindPopup(popup_750a7d3f4bf741288eb68ef413abb1b1)
+        ;
+
+        
+    
+    
+            var marker_1780a1961b0544918dde9357125ec1f9 = L.marker(
+                [52.996, -109.84817],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_266fdfdda2fc45f5845afd052bf8af7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a55721bc87b64d0bb678c0a03e007c43 = $(`<div id="html_a55721bc87b64d0bb678c0a03e007c43" style="width: 100.0%; height: 100.0%;">Météorite : Buzzard Coulee</div>`)[0];
+            popup_266fdfdda2fc45f5845afd052bf8af7f.setContent(html_a55721bc87b64d0bb678c0a03e007c43);
+        
+
+        marker_1780a1961b0544918dde9357125ec1f9.bindPopup(popup_266fdfdda2fc45f5845afd052bf8af7f)
+        ;
+
+        
+    
+    
+            var marker_108ceea7559f439497faad3777f70ea3 = L.marker(
+                [54.81667, 61.11667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_9c5a76efac0c43aca15b9b0b6eaa6d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fafe1f71b7254758a998923da2a32d19 = $(`<div id="html_fafe1f71b7254758a998923da2a32d19" style="width: 100.0%; height: 100.0%;">Météorite : Chelyabinsk</div>`)[0];
+            popup_9c5a76efac0c43aca15b9b0b6eaa6d50.setContent(html_fafe1f71b7254758a998923da2a32d19);
+        
+
+        marker_108ceea7559f439497faad3777f70ea3.bindPopup(popup_9c5a76efac0c43aca15b9b0b6eaa6d50)
+        ;
+
+        
+    
+    
+            var marker_f2bd46d0491f458caa7d6682a73b1c13 = L.marker(
+                [23.69639, -5.01472],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_18de38d979834eb594bcdc71609a9136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f160dc337ed4576a53695fed5129c7b = $(`<div id="html_6f160dc337ed4576a53695fed5129c7b" style="width: 100.0%; height: 100.0%;">Météorite : Chergach </div>`)[0];
+            popup_18de38d979834eb594bcdc71609a9136.setContent(html_6f160dc337ed4576a53695fed5129c7b);
+        
+
+        marker_f2bd46d0491f458caa7d6682a73b1c13.bindPopup(popup_18de38d979834eb594bcdc71609a9136)
+        ;
+
+        
+    
+    
+            var marker_a6c9135acc154d898b807e5d711f4b41 = L.marker(
+                [-1.87089, -79.95756],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_1a47b008a75a4593a0f3ff26295915c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dd5af05b93b44919555cb047882d330 = $(`<div id="html_0dd5af05b93b44919555cb047882d330" style="width: 100.0%; height: 100.0%;">Météorite : Daule</div>`)[0];
+            popup_1a47b008a75a4593a0f3ff26295915c1.setContent(html_0dd5af05b93b44919555cb047882d330);
+        
+
+        marker_a6c9135acc154d898b807e5d711f4b41.bindPopup(popup_1a47b008a75a4593a0f3ff26295915c1)
+        ;
+
+        
+    
+    
+            var marker_5522157c6fe9461e8335ffdadddeeb48 = L.marker(
+                [26.68333, 93.86667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f112a0c49fca4109a7f6be9ff4be1dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_386c53f38bda4815836a4312bcfc2569 = $(`<div id="html_386c53f38bda4815836a4312bcfc2569" style="width: 100.0%; height: 100.0%;">Météorite : Dergaon</div>`)[0];
+            popup_f112a0c49fca4109a7f6be9ff4be1dd5.setContent(html_386c53f38bda4815836a4312bcfc2569);
+        
+
+        marker_5522157c6fe9461e8335ffdadddeeb48.bindPopup(popup_f112a0c49fca4109a7f6be9ff4be1dd5)
+        ;
+
+        
+    
+    
+            var marker_8c7e2ecac17f40dd8552c5689170d9d3 = L.marker(
+                [19.0, 81.0],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_e95dce645edf4b7cbc56289996f0b27b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5fc041c1ea047a5bdebc85a2477ff06 = $(`<div id="html_e5fc041c1ea047a5bdebc85a2477ff06" style="width: 100.0%; height: 100.0%;">Météorite : Devgaon</div>`)[0];
+            popup_e95dce645edf4b7cbc56289996f0b27b.setContent(html_e5fc041c1ea047a5bdebc85a2477ff06);
+        
+
+        marker_8c7e2ecac17f40dd8552c5689170d9d3.bindPopup(popup_e95dce645edf4b7cbc56289996f0b27b)
+        ;
+
+        
+    
+    
+            var marker_acaf1e809eb747fea6b795ca9b50bd6f = L.marker(
+                [37.35172, 27.32997],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_df58c6387f634c5bad0651b1a3111c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cb159adafb14bb3bc414d61404bcbd4 = $(`<div id="html_5cb159adafb14bb3bc414d61404bcbd4" style="width: 100.0%; height: 100.0%;">Météorite : Didim</div>`)[0];
+            popup_df58c6387f634c5bad0651b1a3111c85.setContent(html_5cb159adafb14bb3bc414d61404bcbd4);
+        
+
+        marker_acaf1e809eb747fea6b795ca9b50bd6f.bindPopup(popup_df58c6387f634c5bad0651b1a3111c85)
+        ;
+
+        
+    
+    
+            var marker_d0fc82969fae4fc9ac7fd99d4eceeaf5 = L.marker(
+                [43.2, -79.61667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_35e5c8a30a6140b0b420f4edbba8854d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f1fa91915414d7989dcbb1fc6f359ec = $(`<div id="html_1f1fa91915414d7989dcbb1fc6f359ec" style="width: 100.0%; height: 100.0%;">Météorite : Grimsby</div>`)[0];
+            popup_35e5c8a30a6140b0b420f4edbba8854d.setContent(html_1f1fa91915414d7989dcbb1fc6f359ec);
+        
+
+        marker_d0fc82969fae4fc9ac7fd99d4eceeaf5.bindPopup(popup_35e5c8a30a6140b0b420f4edbba8854d)
+        ;
+
+        
+    
+    
+            var marker_2124c77761514c42a052005848ddc0b1 = L.marker(
+                [34.45, 132.38333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_a32f8ed056184a5fbe2de1819b04c50b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ae57ba5abac4e3db14772faa5804ab3 = $(`<div id="html_4ae57ba5abac4e3db14772faa5804ab3" style="width: 100.0%; height: 100.0%;">Météorite : Hiroshima</div>`)[0];
+            popup_a32f8ed056184a5fbe2de1819b04c50b.setContent(html_4ae57ba5abac4e3db14772faa5804ab3);
+        
+
+        marker_2124c77761514c42a052005848ddc0b1.bindPopup(popup_a32f8ed056184a5fbe2de1819b04c50b)
+        ;
+
+        
+    
+    
+            var marker_a2152795da774af0877bfeed31db6ba2 = L.marker(
+                [1.345, 31.47278],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c853761ca4e5414083600720d181444b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4073d8b8d0b14094be5f47d8763d81d3 = $(`<div id="html_4073d8b8d0b14094be5f47d8763d81d3" style="width: 100.0%; height: 100.0%;">Météorite : Hoima</div>`)[0];
+            popup_c853761ca4e5414083600720d181444b.setContent(html_4073d8b8d0b14094be5f47d8763d81d3);
+        
+
+        marker_a2152795da774af0877bfeed31db6ba2.bindPopup(popup_c853761ca4e5414083600720d181444b)
+        ;
+
+        
+    
+    
+            var marker_4e35f2b74298477ab85eafc1e882e660 = L.marker(
+                [26.46469, 106.63241],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6b9659f9fb8143db9e5a975585032870 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_760ff2e484e8494099f94c1bf80df164 = $(`<div id="html_760ff2e484e8494099f94c1bf80df164" style="width: 100.0%; height: 100.0%;">Météorite : Huaxi</div>`)[0];
+            popup_6b9659f9fb8143db9e5a975585032870.setContent(html_760ff2e484e8494099f94c1bf80df164);
+        
+
+        marker_4e35f2b74298477ab85eafc1e882e660.bindPopup(popup_6b9659f9fb8143db9e5a975585032870)
+        ;
+
+        
+    
+    
+            var marker_e1da36fdeb334c73857bb66fdbba1a9e = L.marker(
+                [46.42137, 14.05217],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_86b836a9addd44489c4c60e513a92559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2d6700c220f44ebaaac8366c1fea104 = $(`<div id="html_c2d6700c220f44ebaaac8366c1fea104" style="width: 100.0%; height: 100.0%;">Météorite : Jesenice</div>`)[0];
+            popup_86b836a9addd44489c4c60e513a92559.setContent(html_c2d6700c220f44ebaaac8366c1fea104);
+        
+
+        marker_e1da36fdeb334c73857bb66fdbba1a9e.bindPopup(popup_86b836a9addd44489c4c60e513a92559)
+        ;
+
+        
+    
+    
+            var marker_8842d43f9c634bcc85e8a1119ccb79d4 = L.marker(
+                [22.68, 70.31333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0fd235e179f54084839ad67da6c335e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4b634443d4c4c4b8ffe1c6f9d110ffb = $(`<div id="html_c4b634443d4c4c4b8ffe1c6f9d110ffb" style="width: 100.0%; height: 100.0%;">Météorite : Jodiya</div>`)[0];
+            popup_0fd235e179f54084839ad67da6c335e3.setContent(html_c4b634443d4c4c4b8ffe1c6f9d110ffb);
+        
+
+        marker_8842d43f9c634bcc85e8a1119ccb79d4.bindPopup(popup_0fd235e179f54084839ad67da6c335e3)
+        ;
+
+        
+    
+    
+            var marker_a3a857b39cfb44e7af8084b8bb98d738 = L.marker(
+                [20.33916, 73.22329],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_33e35b3c653e4649aa9c3ae8e95d4be8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a73de19020cf4c5bbfda0bb2d5377fe3 = $(`<div id="html_a73de19020cf4c5bbfda0bb2d5377fe3" style="width: 100.0%; height: 100.0%;">Météorite : Kaprada</div>`)[0];
+            popup_33e35b3c653e4649aa9c3ae8e95d4be8.setContent(html_a73de19020cf4c5bbfda0bb2d5377fe3);
+        
+
+        marker_a3a857b39cfb44e7af8084b8bb98d738.bindPopup(popup_33e35b3c653e4649aa9c3ae8e95d4be8)
+        ;
+
+        
+    
+    
+            var marker_2abe19c3f32345b8ad396f12b32e98be = L.marker(
+                [29.58333, 77.58333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_9d57447e189f4d11ad5607d30aad4a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b05101d34c874b2d81448c6bf17392d2 = $(`<div id="html_b05101d34c874b2d81448c6bf17392d2" style="width: 100.0%; height: 100.0%;">Météorite : Kasauli</div>`)[0];
+            popup_9d57447e189f4d11ad5607d30aad4a93.setContent(html_b05101d34c874b2d81448c6bf17392d2);
+        
+
+        marker_2abe19c3f32345b8ad396f12b32e98be.bindPopup(popup_9d57447e189f4d11ad5607d30aad4a93)
+        ;
+
+        
+    
+    
+            var marker_ef97ac833171452e92067b0722fba0ee = L.marker(
+                [36.54194, 29.41822],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_42641cf3ab4a4c27932207d86010a4a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c113e7ee0e74433b6e90fd8d073ebc2 = $(`<div id="html_7c113e7ee0e74433b6e90fd8d073ebc2" style="width: 100.0%; height: 100.0%;">Météorite : Kemer</div>`)[0];
+            popup_42641cf3ab4a4c27932207d86010a4a2.setContent(html_7c113e7ee0e74433b6e90fd8d073ebc2);
+        
+
+        marker_ef97ac833171452e92067b0722fba0ee.bindPopup(popup_42641cf3ab4a4c27932207d86010a4a2)
+        ;
+
+        
+    
+    
+            var marker_36e058e185924e2095ee12989537172e = L.marker(
+                [20.4625, 86.70278],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_d6666f94e2734cf3a133f0380920ba68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_616152e63f6048be89384d1227456e1d = $(`<div id="html_616152e63f6048be89384d1227456e1d" style="width: 100.0%; height: 100.0%;">Météorite : Kendrapara</div>`)[0];
+            popup_d6666f94e2734cf3a133f0380920ba68.setContent(html_616152e63f6048be89384d1227456e1d);
+        
+
+        marker_36e058e185924e2095ee12989537172e.bindPopup(popup_d6666f94e2734cf3a133f0380920ba68)
+        ;
+
+        
+    
+    
+            var marker_09d3ff816e1f40848bd0706da98aa853 = L.marker(
+                [12.76667, 9.8],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0dd0a558109b4c2bac46e78db75b9a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b065f0a32264a8aa25f5cb98df4217f = $(`<div id="html_3b065f0a32264a8aa25f5cb98df4217f" style="width: 100.0%; height: 100.0%;">Météorite : Kilabo</div>`)[0];
+            popup_0dd0a558109b4c2bac46e78db75b9a4d.setContent(html_3b065f0a32264a8aa25f5cb98df4217f);
+        
+
+        marker_09d3ff816e1f40848bd0706da98aa853.bindPopup(popup_0dd0a558109b4c2bac46e78db75b9a4d)
+        ;
+
+        
+    
+    
+            var marker_09fad7e224204c9ea6f6e34f42359e55 = L.marker(
+                [48.76367, 21.17633],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c9d65c294d314085813cf6deaf1ebe2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7959ba264f8d49e287433af5efb23a86 = $(`<div id="html_7959ba264f8d49e287433af5efb23a86" style="width: 100.0%; height: 100.0%;">Météorite : Košice</div>`)[0];
+            popup_c9d65c294d314085813cf6deaf1ebe2c.setContent(html_7959ba264f8d49e287433af5efb23a86);
+        
+
+        marker_09fad7e224204c9ea6f6e34f42359e55.bindPopup(popup_c9d65c294d314085813cf6deaf1ebe2c)
+        ;
+
+        
+    
+    
+            var marker_b37f1d44356f4dfbbfe2d5dde42202d7 = L.marker(
+                [38.70066, -77.21163],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0c37ecb48833478182f077695d597779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cabd6a007d394e86bc343d37fadc21fa = $(`<div id="html_cabd6a007d394e86bc343d37fadc21fa" style="width: 100.0%; height: 100.0%;">Météorite : Lorton</div>`)[0];
+            popup_0c37ecb48833478182f077695d597779.setContent(html_cabd6a007d394e86bc343d37fadc21fa);
+        
+
+        marker_b37f1d44356f4dfbbfe2d5dde42202d7.bindPopup(popup_0c37ecb48833478182f077695d597779)
+        ;
+
+        
+    
+    
+            var marker_77a0138cb97e48b69cda29cdad6b2333 = L.marker(
+                [27.66667, 95.78333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_2968188d3ffe431ea5745059b9de0637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4af5c246f124b6bb3e8b4ba92de047d = $(`<div id="html_b4af5c246f124b6bb3e8b4ba92de047d" style="width: 100.0%; height: 100.0%;">Météorite : Mahadevpur</div>`)[0];
+            popup_2968188d3ffe431ea5745059b9de0637.setContent(html_b4af5c246f124b6bb3e8b4ba92de047d);
+        
+
+        marker_77a0138cb97e48b69cda29cdad6b2333.bindPopup(popup_2968188d3ffe431ea5745059b9de0637)
+        ;
+
+        
+    
+    
+            var marker_6d1a7cb1d9784d4dab6c5018b2b78e93 = L.marker(
+                [12.83333, 9.38333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_2341cb91ad0f452280e00f7bb614e1f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a59292e45ec047fc82dd776568df3f5f = $(`<div id="html_a59292e45ec047fc82dd776568df3f5f" style="width: 100.0%; height: 100.0%;">Météorite : Maigatari-Danduma</div>`)[0];
+            popup_2341cb91ad0f452280e00f7bb614e1f7.setContent(html_a59292e45ec047fc82dd776568df3f5f);
+        
+
+        marker_6d1a7cb1d9784d4dab6c5018b2b78e93.bindPopup(popup_2341cb91ad0f452280e00f7bb614e1f7)
+        ;
+
+        
+    
+    
+            var marker_ea9b176109694d12bbd3c808c6dee1e2 = L.marker(
+                [54.76183, 11.46745],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f789d30babcd408d9b5b722f03eff42b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7abd2613e7248cfa94038fd932f703e = $(`<div id="html_a7abd2613e7248cfa94038fd932f703e" style="width: 100.0%; height: 100.0%;">Météorite : Maribo</div>`)[0];
+            popup_f789d30babcd408d9b5b722f03eff42b.setContent(html_a7abd2613e7248cfa94038fd932f703e);
+        
+
+        marker_ea9b176109694d12bbd3c808c6dee1e2.bindPopup(popup_f789d30babcd408d9b5b722f03eff42b)
+        ;
+
+        
+    
+    
+            var marker_28e5c5abe85c4444b99534b0ca61f156 = L.marker(
+                [-14.2, 48.1],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_31cd62dcb1084d76b1ab53e394ca7c0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4a1e975fdb74a4a95960c532a30e38c = $(`<div id="html_e4a1e975fdb74a4a95960c532a30e38c" style="width: 100.0%; height: 100.0%;">Météorite : Maromandia</div>`)[0];
+            popup_31cd62dcb1084d76b1ab53e394ca7c0e.setContent(html_e4a1e975fdb74a4a95960c532a30e38c);
+        
+
+        marker_28e5c5abe85c4444b99534b0ca61f156.bindPopup(popup_31cd62dcb1084d76b1ab53e394ca7c0e)
+        ;
+
+        
+    
+    
+            var marker_452bb6b08a614709b06562e09a9c66a6 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_3c7917d6a45842f598074a9706d8c97d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d83551ecc734339a6bf58c388632eac = $(`<div id="html_0d83551ecc734339a6bf58c388632eac" style="width: 100.0%; height: 100.0%;">Météorite : Mason Gully</div>`)[0];
+            popup_3c7917d6a45842f598074a9706d8c97d.setContent(html_0d83551ecc734339a6bf58c388632eac);
+        
+
+        marker_452bb6b08a614709b06562e09a9c66a6.bindPopup(popup_3c7917d6a45842f598074a9706d8c97d)
+        ;
+
+        
+    
+    
+            var marker_9449d1614e384666988f1a8bef8a7b2f = L.marker(
+                [42.9075, -90.36556],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_26c58691ee814008be881eda5eaeb44d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e7b30f918a845f484d4154c8e497440 = $(`<div id="html_8e7b30f918a845f484d4154c8e497440" style="width: 100.0%; height: 100.0%;">Météorite : Mifflin</div>`)[0];
+            popup_26c58691ee814008be881eda5eaeb44d.setContent(html_8e7b30f918a845f484d4154c8e497440);
+        
+
+        marker_9449d1614e384666988f1a8bef8a7b2f.bindPopup(popup_26c58691ee814008be881eda5eaeb44d)
+        ;
+
+        
+    
+    
+            var marker_9f3d1a0b10ea4c8c9ddbb666592124cc = L.marker(
+                [49.6, 18.53333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_9c0721607345410dac410683b237260e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfbff0530dfd42e1a3b420923e301af4 = $(`<div id="html_cfbff0530dfd42e1a3b420923e301af4" style="width: 100.0%; height: 100.0%;">Météorite : Morávka</div>`)[0];
+            popup_9c0721607345410dac410683b237260e.setContent(html_cfbff0530dfd42e1a3b420923e301af4);
+        
+
+        marker_9f3d1a0b10ea4c8c9ddbb666592124cc.bindPopup(popup_9c0721607345410dac410683b237260e)
+        ;
+
+        
+    
+    
+            var marker_64c79470486e45dc8adefc12f4d63a98 = L.marker(
+                [59.43333, 10.7],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_66ab001cb65f4ad4ac1416174df1e4fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd404e691b7c44a9855199ff43c2a2bd = $(`<div id="html_fd404e691b7c44a9855199ff43c2a2bd" style="width: 100.0%; height: 100.0%;">Météorite : Moss</div>`)[0];
+            popup_66ab001cb65f4ad4ac1416174df1e4fb.setContent(html_fd404e691b7c44a9855199ff43c2a2bd);
+        
+
+        marker_64c79470486e45dc8adefc12f4d63a98.bindPopup(popup_66ab001cb65f4ad4ac1416174df1e4fb)
+        ;
+
+        
+    
+    
+            var marker_76ded28f515f4ddaab7ad54baa1b4412 = L.marker(
+                [47.525, 10.80833],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_29f99fe7e3554123a904e0f3ad04d37f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6044194c5e747b78a04374a1649ad5e = $(`<div id="html_c6044194c5e747b78a04374a1649ad5e" style="width: 100.0%; height: 100.0%;">Météorite : Neuschwanstein</div>`)[0];
+            popup_29f99fe7e3554123a904e0f3ad04d37f.setContent(html_c6044194c5e747b78a04374a1649ad5e);
+        
+
+        marker_76ded28f515f4ddaab7ad54baa1b4412.bindPopup(popup_29f99fe7e3554123a904e0f3ad04d37f)
+        ;
+
+        
+    
+    
+            var marker_85712bd72c8f49af8524d49e0e21f646 = L.marker(
+                [29.94718, -90.10976],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_fc8580358c334e5d93457036b7897b90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13420f0fd2714f18aa1f4d39a5320f91 = $(`<div id="html_13420f0fd2714f18aa1f4d39a5320f91" style="width: 100.0%; height: 100.0%;">Météorite : New Orleans</div>`)[0];
+            popup_fc8580358c334e5d93457036b7897b90.setContent(html_13420f0fd2714f18aa1f4d39a5320f91);
+        
+
+        marker_85712bd72c8f49af8524d49e0e21f646.bindPopup(popup_fc8580358c334e5d93457036b7897b90)
+        ;
+
+        
+    
+    
+            var marker_1125ae1fdfb540a48d2446a58d9ef3eb = L.marker(
+                [28.5475, -81.36222],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c7fddfd601d448d384bf84bb0b0548c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f004006853024a8498b469fa46ecf774 = $(`<div id="html_f004006853024a8498b469fa46ecf774" style="width: 100.0%; height: 100.0%;">Météorite : Orlando</div>`)[0];
+            popup_c7fddfd601d448d384bf84bb0b0548c6.setContent(html_f004006853024a8498b469fa46ecf774);
+        
+
+        marker_1125ae1fdfb540a48d2446a58d9ef3eb.bindPopup(popup_c7fddfd601d448d384bf84bb0b0548c6)
+        ;
+
+        
+    
+    
+            var marker_1aca92cb3e614a14be02b77a599f2467 = L.marker(
+                [12.9, 0.08],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_e9ade1438a8a4d308cb4fe707ef263ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0327b67522384ca7862aaa5fe785a2f7 = $(`<div id="html_0327b67522384ca7862aaa5fe785a2f7" style="width: 100.0%; height: 100.0%;">Météorite : Ouadangou</div>`)[0];
+            popup_e9ade1438a8a4d308cb4fe707ef263ee.setContent(html_0327b67522384ca7862aaa5fe785a2f7);
+        
+
+        marker_1aca92cb3e614a14be02b77a599f2467.bindPopup(popup_e9ade1438a8a4d308cb4fe707ef263ee)
+        ;
+
+        
+    
+    
+            var marker_a06cafc5198245df84b2117359adcc33 = L.marker(
+                [24.3, -13.1],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_2209184bbcad430c9a4ae8443a8cd983 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25fcbd8bc09345e1828165b5b80b399d = $(`<div id="html_25fcbd8bc09345e1828165b5b80b399d" style="width: 100.0%; height: 100.0%;">Météorite : Oum Dreyga</div>`)[0];
+            popup_2209184bbcad430c9a4ae8443a8cd983.setContent(html_25fcbd8bc09345e1828165b5b80b399d);
+        
+
+        marker_a06cafc5198245df84b2117359adcc33.bindPopup(popup_2209184bbcad430c9a4ae8443a8cd983)
+        ;
+
+        
+    
+    
+            var marker_9153b0ef13ac4161be687688805e0ae0 = L.marker(
+                [41.48472, -87.67917],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_01317fdadf474a8f8822173642ed77fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb8434397f2344209a47c61714aeca97 = $(`<div id="html_fb8434397f2344209a47c61714aeca97" style="width: 100.0%; height: 100.0%;">Météorite : Park Forest</div>`)[0];
+            popup_01317fdadf474a8f8822173642ed77fa.setContent(html_fb8434397f2344209a47c61714aeca97);
+        
+
+        marker_9153b0ef13ac4161be687688805e0ae0.bindPopup(popup_01317fdadf474a8f8822173642ed77fa)
+        ;
+
+        
+    
+    
+            var marker_40a8e4775bfe47df9acccbe3b1e9b0fc = L.marker(
+                [45.275, 26.70972],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_cff708ef647d40608b60878888a29a84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ed56d7b6f694dcba7200ea92b6bc34f = $(`<div id="html_5ed56d7b6f694dcba7200ea92b6bc34f" style="width: 100.0%; height: 100.0%;">Météorite : Pleşcoi</div>`)[0];
+            popup_cff708ef647d40608b60878888a29a84.setContent(html_5ed56d7b6f694dcba7200ea92b6bc34f);
+        
+
+        marker_40a8e4775bfe47df9acccbe3b1e9b0fc.bindPopup(popup_cff708ef647d40608b60878888a29a84)
+        ;
+
+        
+    
+    
+            var marker_8373a7c1676347c7b44fa65550a57550 = L.marker(
+                [39.35, -3.51667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_4f3cdac0d4094e4ca224c0993cbb8dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6781e17257ef428fad137099d4de67c5 = $(`<div id="html_6781e17257ef428fad137099d4de67c5" style="width: 100.0%; height: 100.0%;">Météorite : Puerto Lápice</div>`)[0];
+            popup_4f3cdac0d4094e4ca224c0993cbb8dd8.setContent(html_6781e17257ef428fad137099d4de67c5);
+        
+
+        marker_8373a7c1676347c7b44fa65550a57550.bindPopup(popup_4f3cdac0d4094e4ca224c0993cbb8dd8)
+        ;
+
+        
+    
+    
+            var marker_d7ada9c1959241d98d15ac30d11141d1 = L.marker(
+                [38.13742, -119.75812],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_39ca54848704454ca9ce9b633844ec6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ce49c76b4b41848f9ad395c4efe8a7 = $(`<div id="html_27ce49c76b4b41848f9ad395c4efe8a7" style="width: 100.0%; height: 100.0%;">Météorite : Red Canyon Lake</div>`)[0];
+            popup_39ca54848704454ca9ce9b633844ec6c.setContent(html_27ce49c76b4b41848f9ad395c4efe8a7);
+        
+
+        marker_d7ada9c1959241d98d15ac30d11141d1.bindPopup(popup_39ca54848704454ca9ce9b633844ec6c)
+        ;
+
+        
+    
+    
+            var marker_24eac62d25a8435e8aba78f52c05c49f = L.marker(
+                [43.66667, 13.0],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_aff0bacf49464bfcb43099774019d923 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab6f146de1db40fd8cc054af1d2dcdd0 = $(`<div id="html_ab6f146de1db40fd8cc054af1d2dcdd0" style="width: 100.0%; height: 100.0%;">Météorite : San Michele</div>`)[0];
+            popup_aff0bacf49464bfcb43099774019d923.setContent(html_ab6f146de1db40fd8cc054af1d2dcdd0);
+        
+
+        marker_24eac62d25a8435e8aba78f52c05c49f.bindPopup(popup_aff0bacf49464bfcb43099774019d923)
+        ;
+
+        
+    
+    
+            var marker_4be2a1fa95fd4ded8a0d9f5c1cf5b224 = L.marker(
+                [-31.535556, -68.489444],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_3ad374ac8b2b4727942462e47dedddde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f11cadac57e4755a2aef2df631e1acf = $(`<div id="html_8f11cadac57e4755a2aef2df631e1acf" style="width: 100.0%; height: 100.0%;">Météorite : Santa Lucia (2008)</div>`)[0];
+            popup_3ad374ac8b2b4727942462e47dedddde.setContent(html_8f11cadac57e4755a2aef2df631e1acf);
+        
+
+        marker_4be2a1fa95fd4ded8a0d9f5c1cf5b224.bindPopup(popup_3ad374ac8b2b4727942462e47dedddde)
+        ;
+
+        
+    
+    
+            var marker_6dd3c8a3bb2243d8b81904a19ee77cb1 = L.marker(
+                [38.80389, -120.90806],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_473411d6cff540829eb99c2b1dbb3a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524a43bb64fa488e8130ba9369980d25 = $(`<div id="html_524a43bb64fa488e8130ba9369980d25" style="width: 100.0%; height: 100.0%;">Météorite : Sutter's Mill</div>`)[0];
+            popup_473411d6cff540829eb99c2b1dbb3a00.setContent(html_524a43bb64fa488e8130ba9369980d25);
+        
+
+        marker_6dd3c8a3bb2243d8b81904a19ee77cb1.bindPopup(popup_473411d6cff540829eb99c2b1dbb3a00)
+        ;
+
+        
+    
+    
+            var marker_fdc99749384c4ae297738ad11d312c50 = L.marker(
+                [59.70444, -134.20139],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_e2932321ea1048b3bd49c7fac5aaf63d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86ab9c5a1c694fe08f16584fffa184ca = $(`<div id="html_86ab9c5a1c694fe08f16584fffa184ca" style="width: 100.0%; height: 100.0%;">Météorite : Tagish Lake</div>`)[0];
+            popup_e2932321ea1048b3bd49c7fac5aaf63d.setContent(html_86ab9c5a1c694fe08f16584fffa184ca);
+        
+
+        marker_fdc99749384c4ae297738ad11d312c50.bindPopup(popup_e2932321ea1048b3bd49c7fac5aaf63d)
+        ;
+
+        
+    
+    
+            var marker_80cc4c6aae7a479ca8669c226d5e6de1 = L.marker(
+                [31.16333, -7.015],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_20fff2e4817842fdbada2c933736e548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b7871e323984288a42e51b407c33441 = $(`<div id="html_0b7871e323984288a42e51b407c33441" style="width: 100.0%; height: 100.0%;">Météorite : Tamdakht</div>`)[0];
+            popup_20fff2e4817842fdbada2c933736e548.setContent(html_0b7871e323984288a42e51b407c33441);
+        
+
+        marker_80cc4c6aae7a479ca8669c226d5e6de1.bindPopup(popup_20fff2e4817842fdbada2c933736e548)
+        ;
+
+        
+    
+    
+            var marker_e38abbb54fa14ac599d358a824059594 = L.marker(
+                [-1.00278, 37.15028],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_1aa40935f09e4be099d14c3670b7259c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb7462a0fb194652a8f13d505c148af1 = $(`<div id="html_eb7462a0fb194652a8f13d505c148af1" style="width: 100.0%; height: 100.0%;">Météorite : Thika</div>`)[0];
+            popup_1aa40935f09e4be099d14c3670b7259c.setContent(html_eb7462a0fb194652a8f13d505c148af1);
+        
+
+        marker_e38abbb54fa14ac599d358a824059594.bindPopup(popup_1aa40935f09e4be099d14c3670b7259c)
+        ;
+
+        
+    
+    
+            var marker_a0a113ba5d61473db21ddae6c17c6da3 = L.marker(
+                [-29.33333, 27.58333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_16803f9dfa6847b089c5d57a57ef1134 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d5ab712cf3c4ea7acf3da871951a59b = $(`<div id="html_5d5ab712cf3c4ea7acf3da871951a59b" style="width: 100.0%; height: 100.0%;">Météorite : Thuathe</div>`)[0];
+            popup_16803f9dfa6847b089c5d57a57ef1134.setContent(html_5d5ab712cf3c4ea7acf3da871951a59b);
+        
+
+        marker_a0a113ba5d61473db21ddae6c17c6da3.bindPopup(popup_16803f9dfa6847b089c5d57a57ef1134)
+        ;
+
+        
+    
+    
+            var marker_d75e949ed021426698145056f4e47383 = L.marker(
+                [29.48195, -7.61123],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0c55f54c7d2a4724ae8babbb0b01d821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82ff768b3d474921aefa43b658f7f320 = $(`<div id="html_82ff768b3d474921aefa43b658f7f320" style="width: 100.0%; height: 100.0%;">Météorite : Tissint</div>`)[0];
+            popup_0c55f54c7d2a4724ae8babbb0b01d821.setContent(html_82ff768b3d474921aefa43b658f7f320);
+        
+
+        marker_d75e949ed021426698145056f4e47383.bindPopup(popup_0c55f54c7d2a4724ae8babbb0b01d821)
+        ;
+
+        
+    
+    
+            var marker_33e0cbdda579484a9da0b834cde0a0ac = L.marker(
+                [-20.85001, -41.73356],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_686d3673efd34683b8ace80670cc5ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02e5561221804a128bb9173e95931fd1 = $(`<div id="html_02e5561221804a128bb9173e95931fd1" style="width: 100.0%; height: 100.0%;">Météorite : Varre-Sai</div>`)[0];
+            popup_686d3673efd34683b8ace80670cc5ae0.setContent(html_02e5561221804a128bb9173e95931fd1);
+        
+
+        marker_33e0cbdda579484a9da0b834cde0a0ac.bindPopup(popup_686d3673efd34683b8ace80670cc5ae0)
+        ;
+
+        
+    
+    
+            var marker_b069e6cd899541b0a803af24e60ca9d5 = L.marker(
+                [42.8, -4.66667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_ce9e359ca4184acda41db428f6b15b12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0fe43d28cae43838f6e6ec84e23e7b5 = $(`<div id="html_c0fe43d28cae43838f6e6ec84e23e7b5" style="width: 100.0%; height: 100.0%;">Météorite : Villalbeto de la Peña</div>`)[0];
+            popup_ce9e359ca4184acda41db428f6b15b12.setContent(html_c0fe43d28cae43838f6e6ec84e23e7b5);
+        
+
+        marker_b069e6cd899541b0a803af24e60ca9d5.bindPopup(popup_ce9e359ca4184acda41db428f6b15b12)
+        ;
+
+        
+    
+    
+            var marker_9ecba15db74d48f391c2a9f7dbd261ad = L.marker(
+                [32.79732, 21.78713],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6fbc1e12000c4a7ab937e3d5064db461 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b6391b22b87430aadcd4abe72b4d4a8 = $(`<div id="html_2b6391b22b87430aadcd4abe72b4d4a8" style="width: 100.0%; height: 100.0%;">Météorite : Werdama</div>`)[0];
+            popup_6fbc1e12000c4a7ab937e3d5064db461.setContent(html_2b6391b22b87430aadcd4abe72b4d4a8);
+        
+
+        marker_9ecba15db74d48f391c2a9f7dbd261ad.bindPopup(popup_6fbc1e12000c4a7ab937e3d5064db461)
+        ;
+
+        
+    
+    
+            var marker_7b2c043c21644da285883e3587c01ed9 = L.marker(
+                [31.96185, -110.434183],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_8a92dacf7d634812bee115fbcd48954a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd9233f52dac46ef93d429fecf6d470a = $(`<div id="html_fd9233f52dac46ef93d429fecf6d470a" style="width: 100.0%; height: 100.0%;">Météorite : Whetstone Mountains</div>`)[0];
+            popup_8a92dacf7d634812bee115fbcd48954a.setContent(html_fd9233f52dac46ef93d429fecf6d470a);
+        
+
+        marker_7b2c043c21644da285883e3587c01ed9.bindPopup(popup_8a92dacf7d634812bee115fbcd48954a)
+        ;
+
+        
+    
+    
+            var marker_fc941a6164904d3ea704144d0ff6de09 = L.marker(
+                [13.71111, 45.17],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_a84f1ffa670a4b76a8b9db007c13da59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da45a685f6f842b8a232e927e10a8f1c = $(`<div id="html_da45a685f6f842b8a232e927e10a8f1c" style="width: 100.0%; height: 100.0%;">Météorite : Yafa</div>`)[0];
+            popup_a84f1ffa670a4b76a8b9db007c13da59.setContent(html_da45a685f6f842b8a232e927e10a8f1c);
+        
+
+        marker_fc941a6164904d3ea704144d0ff6de09.bindPopup(popup_a84f1ffa670a4b76a8b9db007c13da59)
+        ;
+
+        
+    
+    
+            var marker_476e4a4c854e47129d47a9f5d4cf49c0 = L.marker(
+                [54.21667, -113.0],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_1005426cbe2a4ba8bb0c42fddaa196ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d5f3b029df49658e118c50eb9bacc2 = $(`<div id="html_20d5f3b029df49658e118c50eb9bacc2" style="width: 100.0%; height: 100.0%;">Météorite : Abee</div>`)[0];
+            popup_1005426cbe2a4ba8bb0c42fddaa196ec.setContent(html_20d5f3b029df49658e118c50eb9bacc2);
+        
+
+        marker_476e4a4c854e47129d47a9f5d4cf49c0.bindPopup(popup_1005426cbe2a4ba8bb0c42fddaa196ec)
+        ;
+
+        
+    
+    
+            var marker_e8946a09b7954790a34c2557fe140f9b = L.marker(
+                [45.26667, 10.15],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_e06cd430a4774127b35ce96f7388ca0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4bd26b3d2054ecda4a61a181fb3a6a8 = $(`<div id="html_f4bd26b3d2054ecda4a61a181fb3a6a8" style="width: 100.0%; height: 100.0%;">Météorite : Alfianello</div>`)[0];
+            popup_e06cd430a4774127b35ce96f7388ca0e.setContent(html_f4bd26b3d2054ecda4a61a181fb3a6a8);
+        
+
+        marker_e8946a09b7954790a34c2557fe140f9b.bindPopup(popup_e06cd430a4774127b35ce96f7388ca0e)
+        ;
+
+        
+    
+    
+            var marker_1860d5fdbf4d4f5a97a9585651ae66f1 = L.marker(
+                [44.9, -90.28333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6648674db66a411bbf5664d3389d5621 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f35dd48fd2496db12745f7d984aa07 = $(`<div id="html_b4f35dd48fd2496db12745f7d984aa07" style="width: 100.0%; height: 100.0%;">Météorite : Colby (Wisconsin)</div>`)[0];
+            popup_6648674db66a411bbf5664d3389d5621.setContent(html_b4f35dd48fd2496db12745f7d984aa07);
+        
+
+        marker_1860d5fdbf4d4f5a97a9585651ae66f1.bindPopup(popup_6648674db66a411bbf5664d3389d5621)
+        ;
+
+        
+    
+    
+            var marker_ce0e3c84101e403382a48ce1c652c98c = L.marker(
+                [-7.5, 111.5],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6d1ea3bf4af542c792b02fe1e771757f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fd51d0419324912b560b31d0743897a = $(`<div id="html_2fd51d0419324912b560b31d0743897a" style="width: 100.0%; height: 100.0%;">Météorite : Djati-Pengilon</div>`)[0];
+            popup_6d1ea3bf4af542c792b02fe1e771757f.setContent(html_2fd51d0419324912b560b31d0743897a);
+        
+
+        marker_ce0e3c84101e403382a48ce1c652c98c.bindPopup(popup_6d1ea3bf4af542c792b02fe1e771757f)
+        ;
+
+        
+    
+    
+            var marker_f899465f59c5456a93f9fbe6540ca800 = L.marker(
+                [45.5, 119.03333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_89e1e4878238436fa38bfa8ad16c0e3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_776922c00b814b4d80df84bd8879370a = $(`<div id="html_776922c00b814b4d80df84bd8879370a" style="width: 100.0%; height: 100.0%;">Météorite : Dong Ujimqin Qi</div>`)[0];
+            popup_89e1e4878238436fa38bfa8ad16c0e3f.setContent(html_776922c00b814b4d80df84bd8879370a);
+        
+
+        marker_f899465f59c5456a93f9fbe6540ca800.bindPopup(popup_89e1e4878238436fa38bfa8ad16c0e3f)
+        ;
+
+        
+    
+    
+            var marker_ecb98ed30f3b435dacebf3637cca1866 = L.marker(
+                [47.86667, 7.35],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0170b6661b494a2597768bd9749dddaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbe5359469f460b9984c31443230afb = $(`<div id="html_ffbe5359469f460b9984c31443230afb" style="width: 100.0%; height: 100.0%;">Météorite : Ensisheim</div>`)[0];
+            popup_0170b6661b494a2597768bd9749dddaf.setContent(html_ffbe5359469f460b9984c31443230afb);
+        
+
+        marker_ecb98ed30f3b435dacebf3637cca1866.bindPopup(popup_0170b6661b494a2597768bd9749dddaf)
+        ;
+
+        
+    
+    
+            var marker_2eff809049e1453e80fb63bd2c83376d = L.marker(
+                [43.41667, -94.83333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_16f7f4044a1f466fb04ab80898ab1562 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecd89b44c537467c8af37b0585778f9f = $(`<div id="html_ecd89b44c537467c8af37b0585778f9f" style="width: 100.0%; height: 100.0%;">Météorite : Estherville</div>`)[0];
+            popup_16f7f4044a1f466fb04ab80898ab1562.setContent(html_ecd89b44c537467c8af37b0585778f9f);
+        
+
+        marker_2eff809049e1453e80fb63bd2c83376d.bindPopup(popup_16f7f4044a1f466fb04ab80898ab1562)
+        ;
+
+        
+    
+    
+            var marker_cafea975ea7348bcbdff3ceaed4d16a2 = L.marker(
+                [43.25, -93.66667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_9cc1716fe2c5442f89a4cd1b86f2fac7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f0fa3ae9b8243cda77fd6373fa9eff3 = $(`<div id="html_9f0fa3ae9b8243cda77fd6373fa9eff3" style="width: 100.0%; height: 100.0%;">Météorite : Forest City</div>`)[0];
+            popup_9cc1716fe2c5442f89a4cd1b86f2fac7.setContent(html_9f0fa3ae9b8243cda77fd6373fa9eff3);
+        
+
+        marker_cafea975ea7348bcbdff3ceaed4d16a2.bindPopup(popup_9cc1716fe2c5442f89a4cd1b86f2fac7)
+        ;
+
+        
+    
+    
+            var marker_762f1505dbab4548882b917ddc47e9ea = L.marker(
+                [57.35, 37.61667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_8002823b0c1e4af1aaf82be7719b1ef2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5b935536d8f41d0b895e63928d60ecc = $(`<div id="html_d5b935536d8f41d0b895e63928d60ecc" style="width: 100.0%; height: 100.0%;">Météorite : Glasatovo</div>`)[0];
+            popup_8002823b0c1e4af1aaf82be7719b1ef2.setContent(html_d5b935536d8f41d0b895e63928d60ecc);
+        
+
+        marker_762f1505dbab4548882b917ddc47e9ea.bindPopup(popup_8002823b0c1e4af1aaf82be7719b1ef2)
+        ;
+
+        
+    
+    
+            var marker_994c041317f34f03b17cc9144b6854ec = L.marker(
+                [34.9, -110.18333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_5240db206a354da28de155f82be52947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d4490a7d414a2ea8eff9fe088e9fa4 = $(`<div id="html_b9d4490a7d414a2ea8eff9fe088e9fa4" style="width: 100.0%; height: 100.0%;">Météorite : Holbrook</div>`)[0];
+            popup_5240db206a354da28de155f82be52947.setContent(html_b9d4490a7d414a2ea8eff9fe088e9fa4);
+        
+
+        marker_994c041317f34f03b17cc9144b6854ec.bindPopup(popup_5240db206a354da28de155f82be52947)
+        ;
+
+        
+    
+    
+            var marker_cf0c35564e7e4c22919bcdff7111c349 = L.marker(
+                [41.8, -91.86667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_7c150b52125f4f14846d94637d7368e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d31ab40b59834b0bbc5a4287fc5d1ac9 = $(`<div id="html_d31ab40b59834b0bbc5a4287fc5d1ac9" style="width: 100.0%; height: 100.0%;">Météorite : Homestead</div>`)[0];
+            popup_7c150b52125f4f14846d94637d7368e7.setContent(html_d31ab40b59834b0bbc5a4287fc5d1ac9);
+        
+
+        marker_cf0c35564e7e4c22919bcdff7111c349.bindPopup(popup_7c150b52125f4f14846d94637d7368e7)
+        ;
+
+        
+    
+    
+            var marker_12d84aef9a73449e9f0efc36f413439a = L.marker(
+                [44.05, 126.16667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_94892d87b963451d83aaa786f8eb80b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb69b1cc11174fbe90e3c589af6efa12 = $(`<div id="html_bb69b1cc11174fbe90e3c589af6efa12" style="width: 100.0%; height: 100.0%;">Météorite : Jilin</div>`)[0];
+            popup_94892d87b963451d83aaa786f8eb80b3.setContent(html_bb69b1cc11174fbe90e3c589af6efa12);
+        
+
+        marker_12d84aef9a73449e9f0efc36f413439a.bindPopup(popup_94892d87b963451d83aaa786f8eb80b3)
+        ;
+
+        
+    
+    
+            var marker_3f4df37a10444d1a9a911e7523d88028 = L.marker(
+                [55.43333, 53.25],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_69709b9864544490a8229c402efc1876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f95fbb98c334b7a9ff0eb0f0fbcfac1 = $(`<div id="html_0f95fbb98c334b7a9ff0eb0f0fbcfac1" style="width: 100.0%; height: 100.0%;">Météorite : Kainsaz</div>`)[0];
+            popup_69709b9864544490a8229c402efc1876.setContent(html_0f95fbb98c334b7a9ff0eb0f0fbcfac1);
+        
+
+        marker_3f4df37a10444d1a9a911e7523d88028.bindPopup(popup_69709b9864544490a8229c402efc1876)
+        ;
+
+        
+    
+    
+            var marker_f7f50a3f7102437bb9bd444656502192 = L.marker(
+                [38.98333, 141.61667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_0330787b52a64075ba7c0c8593aaf37d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_354e388e844648a8a4036f75770ce1a3 = $(`<div id="html_354e388e844648a8a4036f75770ce1a3" style="width: 100.0%; height: 100.0%;">Météorite : Kesen</div>`)[0];
+            popup_0330787b52a64075ba7c0c8593aaf37d.setContent(html_354e388e844648a8a4036f75770ce1a3);
+        
+
+        marker_f7f50a3f7102437bb9bd444656502192.bindPopup(popup_0330787b52a64075ba7c0c8593aaf37d)
+        ;
+
+        
+    
+    
+            var marker_ada92a57f41d432e84e59f5d932301d8 = L.marker(
+                [48.9, 22.4],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_37efcf604f984f4d987dcbb8b41547b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb8b9396bbe14d1b822c6c849d20624a = $(`<div id="html_cb8b9396bbe14d1b822c6c849d20624a" style="width: 100.0%; height: 100.0%;">Météorite : Knyahinya</div>`)[0];
+            popup_37efcf604f984f4d987dcbb8b41547b9.setContent(html_cb8b9396bbe14d1b822c6c849d20624a);
+        
+
+        marker_ada92a57f41d432e84e59f5d932301d8.bindPopup(popup_37efcf604f984f4d987dcbb8b41547b9)
+        ;
+
+        
+    
+    
+            var marker_b68de67de80543198b7e17c864e8d8be = L.marker(
+                [55.78333, 61.36667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_35df939195164e22b45e1ec1531c68b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba16b74d03c4cf799c162b88375793c = $(`<div id="html_3ba16b74d03c4cf799c162b88375793c" style="width: 100.0%; height: 100.0%;">Météorite : Kunashak</div>`)[0];
+            popup_35df939195164e22b45e1ec1531c68b4.setContent(html_3ba16b74d03c4cf799c162b88375793c);
+        
+
+        marker_b68de67de80543198b7e17c864e8d8be.bindPopup(popup_35df939195164e22b45e1ec1531c68b4)
+        ;
+
+        
+    
+    
+            var marker_ddc6624da385459a94d5c6c231031e54 = L.marker(
+                [42.25, 59.2],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_6e532376c78e4a839cb957b8b8929950 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72728a9f4b9b45f2b7d31bd0c5e0c448 = $(`<div id="html_72728a9f4b9b45f2b7d31bd0c5e0c448" style="width: 100.0%; height: 100.0%;">Météorite : Kunya-Urgench</div>`)[0];
+            popup_6e532376c78e4a839cb957b8b8929950.setContent(html_72728a9f4b9b45f2b7d31bd0c5e0c448);
+        
+
+        marker_ddc6624da385459a94d5c6c231031e54.bindPopup(popup_6e532376c78e4a839cb957b8b8929950)
+        ;
+
+        
+    
+    
+            var marker_96f14542587a42afb8a559bb77ea135b = L.marker(
+                [1.06667, 34.16667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_ae78080b34d94f5e992fa72e322a8c8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f68e14ef0a44acf957fc8430c976bc0 = $(`<div id="html_0f68e14ef0a44acf957fc8430c976bc0" style="width: 100.0%; height: 100.0%;">Météorite : Mbale</div>`)[0];
+            popup_ae78080b34d94f5e992fa72e322a8c8b.setContent(html_0f68e14ef0a44acf957fc8430c976bc0);
+        
+
+        marker_96f14542587a42afb8a559bb77ea135b.bindPopup(popup_ae78080b34d94f5e992fa72e322a8c8b)
+        ;
+
+        
+    
+    
+            var marker_f08ea234ca064c8f9039f00b8f97ad78 = L.marker(
+                [-26.45, 120.36667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_d54e5fb2144246a6aba84452b11e45bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc5f8029cb4b431e82e976b2ecda396f = $(`<div id="html_bc5f8029cb4b431e82e976b2ecda396f" style="width: 100.0%; height: 100.0%;">Météorite : Millbillillie</div>`)[0];
+            popup_d54e5fb2144246a6aba84452b11e45bf.setContent(html_bc5f8029cb4b431e82e976b2ecda396f);
+        
+
+        marker_f08ea234ca064c8f9039f00b8f97ad78.bindPopup(popup_d54e5fb2144246a6aba84452b11e45bf)
+        ;
+
+        
+    
+    
+            var marker_b1ea1fd6d0c145bbb114925f8d13f6fa = L.marker(
+                [46.8, 24.03333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_290134849b6749b3836e68b6936eeadb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2db6de65bcd45ca90597284d233bd16 = $(`<div id="html_a2db6de65bcd45ca90597284d233bd16" style="width: 100.0%; height: 100.0%;">Météorite : Mocs</div>`)[0];
+            popup_290134849b6749b3836e68b6936eeadb.setContent(html_a2db6de65bcd45ca90597284d233bd16);
+        
+
+        marker_b1ea1fd6d0c145bbb114925f8d13f6fa.bindPopup(popup_290134849b6749b3836e68b6936eeadb)
+        ;
+
+        
+    
+    
+            var marker_44fcfd407b504866a8353fe305b1fced = L.marker(
+                [38.11667, -1.16667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f87abfb0bd1341429619577147bad402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cca9bbbacbd740a2be2df0c3365c667b = $(`<div id="html_cca9bbbacbd740a2be2df0c3365c667b" style="width: 100.0%; height: 100.0%;">Météorite : Molina</div>`)[0];
+            popup_f87abfb0bd1341429619577147bad402.setContent(html_cca9bbbacbd740a2be2df0c3365c667b);
+        
+
+        marker_44fcfd407b504866a8353fe305b1fced.bindPopup(popup_f87abfb0bd1341429619577147bad402)
+        ;
+
+        
+    
+    
+            var marker_a939e9aae20f4f92b37eda3ae102a9d7 = L.marker(
+                [43.39056, 1.9625],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c70d3c1e6a98462dbba40a42cb564a6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c1bb13ee33d4dfdab81cb4bd485dbe0 = $(`<div id="html_1c1bb13ee33d4dfdab81cb4bd485dbe0" style="width: 100.0%; height: 100.0%;">Météorite : Montferré</div>`)[0];
+            popup_c70d3c1e6a98462dbba40a42cb564a6c.setContent(html_1c1bb13ee33d4dfdab81cb4bd485dbe0);
+        
+
+        marker_a939e9aae20f4f92b37eda3ae102a9d7.bindPopup(popup_c70d3c1e6a98462dbba40a42cb564a6c)
+        ;
+
+        
+    
+    
+            var marker_717ca71b39ae4a2f9a6db7d25c7f8a95 = L.marker(
+                [18.7, 4.8],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_d2516f600c2649068893454b6d18b7e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d322c67af648f79fa36da4aafb5877 = $(`<div id="html_21d322c67af648f79fa36da4aafb5877" style="width: 100.0%; height: 100.0%;">Météorite : Mount Tazerzait</div>`)[0];
+            popup_d2516f600c2649068893454b6d18b7e8.setContent(html_21d322c67af648f79fa36da4aafb5877);
+        
+
+        marker_717ca71b39ae4a2f9a6db7d25c7f8a95.bindPopup(popup_d2516f600c2649068893454b6d18b7e8)
+        ;
+
+        
+    
+    
+            var marker_01dc16cc262444cd86d941e312388977 = L.marker(
+                [40.0, -81.76667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f22679d5d16a413d97d282179d33560c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be6099f202b54d3d991ba5575ffa3f21 = $(`<div id="html_be6099f202b54d3d991ba5575ffa3f21" style="width: 100.0%; height: 100.0%;">Météorite : New Concord</div>`)[0];
+            popup_f22679d5d16a413d97d282179d33560c.setContent(html_be6099f202b54d3d991ba5575ffa3f21);
+        
+
+        marker_01dc16cc262444cd86d941e312388977.bindPopup(popup_f22679d5d16a413d97d282179d33560c)
+        ;
+
+        
+    
+    
+            var marker_633a5c9e6307495ba3464fd107d8345c = L.marker(
+                [39.68333, -99.86667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_15cfe67e87d0431db1b26c69f7c8baae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aacd619ebe394e34a9fa3d3292a32207 = $(`<div id="html_aacd619ebe394e34a9fa3d3292a32207" style="width: 100.0%; height: 100.0%;">Météorite : Norton County</div>`)[0];
+            popup_15cfe67e87d0431db1b26c69f7c8baae.setContent(html_aacd619ebe394e34a9fa3d3292a32207);
+        
+
+        marker_633a5c9e6307495ba3464fd107d8345c.bindPopup(popup_15cfe67e87d0431db1b26c69f7c8baae)
+        ;
+
+        
+    
+    
+            var marker_f7b0753a927f4cebb3c0fd9bff6ab72f = L.marker(
+                [57.78333, 55.26667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c5f7df8405d84052a21cd10add814b5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59dfb65b0b2c4fd29e077521f52d52d8 = $(`<div id="html_59dfb65b0b2c4fd29e077521f52d52d8" style="width: 100.0%; height: 100.0%;">Météorite : Ochansk</div>`)[0];
+            popup_c5f7df8405d84052a21cd10add814b5f.setContent(html_59dfb65b0b2c4fd29e077521f52d52d8);
+        
+
+        marker_f7b0753a927f4cebb3c0fd9bff6ab72f.bindPopup(popup_c5f7df8405d84052a21cd10add814b5f)
+        ;
+
+        
+    
+    
+            var marker_f96c75d8ac2e4442b7236fff977191ee = L.marker(
+                [38.71667, -7.06667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_c8444c1e9c834cfc90067076e1d3cbeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dadef628b12e416e9fa0745ff329ea38 = $(`<div id="html_dadef628b12e416e9fa0745ff329ea38" style="width: 100.0%; height: 100.0%;">Météorite : Olivenza</div>`)[0];
+            popup_c8444c1e9c834cfc90067076e1d3cbeb.setContent(html_dadef628b12e416e9fa0745ff329ea38);
+        
+
+        marker_f96c75d8ac2e4442b7236fff977191ee.bindPopup(popup_c8444c1e9c834cfc90067076e1d3cbeb)
+        ;
+
+        
+    
+    
+            var marker_db4a1caa6d5d4131937dd4b6923d84de = L.marker(
+                [36.06667, -90.5],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_f8130bc4064e4870b4a9449fb900dd01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_005f0bdda7774a2283ecec59ee79ffe8 = $(`<div id="html_005f0bdda7774a2283ecec59ee79ffe8" style="width: 100.0%; height: 100.0%;">Météorite : Paragould</div>`)[0];
+            popup_f8130bc4064e4870b4a9449fb900dd01.setContent(html_005f0bdda7774a2283ecec59ee79ffe8);
+        
+
+        marker_db4a1caa6d5d4131937dd4b6923d84de.bindPopup(popup_f8130bc4064e4870b4a9449fb900dd01)
+        ;
+
+        
+    
+    
+            var marker_ef7069d7c59b45218b917f35b2a51ab0 = L.marker(
+                [52.76667, 21.26667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_675df6c8768f4de7a1522977e320efa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744dc81a67d44d2faf833ca2ce162c35 = $(`<div id="html_744dc81a67d44d2faf833ca2ce162c35" style="width: 100.0%; height: 100.0%;">Météorite : Pultusk</div>`)[0];
+            popup_675df6c8768f4de7a1522977e320efa1.setContent(html_744dc81a67d44d2faf833ca2ce162c35);
+        
+
+        marker_ef7069d7c59b45218b917f35b2a51ab0.bindPopup(popup_675df6c8768f4de7a1522977e320efa1)
+        ;
+
+        
+    
+    
+            var marker_f425cb6d276f4b0c85d9f1fd7e471495 = L.marker(
+                [-29.03333, -53.05],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_213de4490e154f0daf2e344da6ea2593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80b30d9753ab47c58116f923d7426dc2 = $(`<div id="html_80b30d9753ab47c58116f923d7426dc2" style="width: 100.0%; height: 100.0%;">Météorite : Putinga</div>`)[0];
+            popup_213de4490e154f0daf2e344da6ea2593.setContent(html_80b30d9753ab47c58116f923d7426dc2);
+        
+
+        marker_f425cb6d276f4b0c85d9f1fd7e471495.bindPopup(popup_213de4490e154f0daf2e344da6ea2593)
+        ;
+
+        
+    
+    
+            var marker_f75059e510fc4038aa36afc041bbd74e = L.marker(
+                [45.3, 0.23333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_22ba0894390c47078c94ae8c8dcfc006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66a3a9d1cf9c4c56add3ac69b884069a = $(`<div id="html_66a3a9d1cf9c4c56add3ac69b884069a" style="width: 100.0%; height: 100.0%;">Météorite : Saint-Séverin</div>`)[0];
+            popup_22ba0894390c47078c94ae8c8dcfc006.setContent(html_66a3a9d1cf9c4c56add3ac69b884069a);
+        
+
+        marker_f75059e510fc4038aa36afc041bbd74e.bindPopup(popup_22ba0894390c47078c94ae8c8dcfc006)
+        ;
+
+        
+    
+    
+            var marker_bb5c0ea33c444f86ad2024ba61a3b2a3 = L.marker(
+                [52.55, 46.55],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_5d8bf731401b4a159c950572d1a6a597 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26ddb82b99f24529a750e3e96bb9aed7 = $(`<div id="html_26ddb82b99f24529a750e3e96bb9aed7" style="width: 100.0%; height: 100.0%;">Météorite : Saratov</div>`)[0];
+            popup_5d8bf731401b4a159c950572d1a6a597.setContent(html_26ddb82b99f24529a750e3e96bb9aed7);
+        
+
+        marker_bb5c0ea33c444f86ad2024ba61a3b2a3.bindPopup(popup_5d8bf731401b4a159c950572d1a6a597)
+        ;
+
+        
+    
+    
+            var marker_b10afa99ce7f44b8bd0684f299f5a627 = L.marker(
+                [-25.73333, 142.95],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_8de69391034e4d2fb707ed8d8bd9a01d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_750ae868dad24103b4c9e0e0000cf7bd = $(`<div id="html_750ae868dad24103b4c9e0e0000cf7bd" style="width: 100.0%; height: 100.0%;">Météorite : Tenham</div>`)[0];
+            popup_8de69391034e4d2fb707ed8d8bd9a01d.setContent(html_750ae868dad24103b4c9e0e0000cf7bd);
+        
+
+        marker_b10afa99ce7f44b8bd0684f299f5a627.bindPopup(popup_8de69391034e4d2fb707ed8d8bd9a01d)
+        ;
+
+        
+    
+    
+            var marker_1ce45bd0cd2e416a866a88f43c223543 = L.marker(
+                [41.266667, -73.266667],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_d0a978e41f6b42148269dcc0071e572a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3df1f6b5f1914a54ae98a646f75320f0 = $(`<div id="html_3df1f6b5f1914a54ae98a646f75320f0" style="width: 100.0%; height: 100.0%;">Météorite : Weston</div>`)[0];
+            popup_d0a978e41f6b42148269dcc0071e572a.setContent(html_3df1f6b5f1914a54ae98a646f75320f0);
+        
+
+        marker_1ce45bd0cd2e416a866a88f43c223543.bindPopup(popup_d0a978e41f6b42148269dcc0071e572a)
+        ;
+
+        
+    
+    
+            var marker_76428f30c8424f56a029fd16cddf35c3 = L.marker(
+                [-26.59278, 120.32833],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_fc0d11a4b7094c6ab773a180f0db6535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a7ce35ff0ba4699be9b7217ab97fbea = $(`<div id="html_5a7ce35ff0ba4699be9b7217ab97fbea" style="width: 100.0%; height: 100.0%;">Météorite : Wiluna</div>`)[0];
+            popup_fc0d11a4b7094c6ab773a180f0db6535.setContent(html_5a7ce35ff0ba4699be9b7217ab97fbea);
+        
+
+        marker_76428f30c8424f56a029fd16cddf35c3.bindPopup(popup_fc0d11a4b7094c6ab773a180f0db6535)
+        ;
+
+        
+    
+    
+            var marker_7f95f8bd50be45899d90f350478dc610 = L.marker(
+                [27.33333, -9.33333],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_ca00b01453c84c11ba57ebea92ade774 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b8f6c3dbf1b49d9aaf6936be0f6203b = $(`<div id="html_6b8f6c3dbf1b49d9aaf6936be0f6203b" style="width: 100.0%; height: 100.0%;">Météorite : Zag</div>`)[0];
+            popup_ca00b01453c84c11ba57ebea92ade774.setContent(html_6b8f6c3dbf1b49d9aaf6936be0f6203b);
+        
+
+        marker_7f95f8bd50be45899d90f350478dc610.bindPopup(popup_ca00b01453c84c11ba57ebea92ade774)
+        ;
+
+        
+    
+    
+            var marker_3ba0eec85a4e45c995b63f13bedde24a = L.marker(
+                [47.58333, 37.25],
+                {}
+            ).addTo(map_0f64f0aed392426497a2bc6ce41b7a6c);
+        
+    
+        var popup_2902f7a61e80467eb97d2a7bc218d2b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80a46e56c5354ad0b22f5fbb5a089905 = $(`<div id="html_80a46e56c5354ad0b22f5fbb5a089905" style="width: 100.0%; height: 100.0%;">Météorite : Zhovtnevyi</div>`)[0];
+            popup_2902f7a61e80467eb97d2a7bc218d2b1.setContent(html_80a46e56c5354ad0b22f5fbb5a089905);
+        
+
+        marker_3ba0eec85a4e45c995b63f13bedde24a.bindPopup(popup_2902f7a61e80467eb97d2a7bc218d2b1)
+        ;
+
+        
+    
+</script>
